@@ -1,9 +1,10 @@
 Source: x11proto-core
-Section: gui
+Section: libdevel
 Priority: optional
 Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
-Build-Depends: debhelper (>= 5.0.0)
-Standards-Version: 3.7.2
+Build-Depends: debhelper (>= 7), autoconf, automake, xorg-util-macros
+XCS-Cross-Host-Build-Depends: debhelper (>= 7), autoconf, automake, xorg-util-macros
+Standards-Version: 3.8.0
 
 Package: x11proto-core-dev
 Architecture: all
